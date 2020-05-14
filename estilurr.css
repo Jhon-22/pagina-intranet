@@ -1,0 +1,30 @@
+body{
+	 font-family:monospace;
+	 background: tomato; 
+}
+.contenedor{
+	margin: auto;
+	display: table;
+}
+h1{
+	float: left;
+	color: green;
+	position:relative;
+	font:1.5;
+}
+h1 span {
+	position: absolute;
+	right: 0;
+	width: 0;
+	background: lightblue;
+	border-left: 1px solid red;
+	animation: maquina 5s infinite alternate;
+}
+@keyframes maquina{
+	from{
+		width: 100%;
+
+	}
+	to{
+		width: 0%;
+	}
